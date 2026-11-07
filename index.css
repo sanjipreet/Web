@@ -1,0 +1,79 @@
+body {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    align-items: center;
+
+}
+
+.welcome {
+
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+#GITHUB {
+
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px 10px;
+    border: 2px solid aqua;
+    color: aqua;
+    padding: 10px 20px;
+
+}
+
+#GITHUB:hover {
+
+    background-color: aqua;
+    color: black;
+
+}
+
+#HOME {
+
+    text-decoration: none;
+    color: lightblue;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#HOME:hover {
+
+    color: aliceblue;
+    text-shadow: 0 0 8px aqua;
+
+}
+
+#BAR {
+
+    justify-content: center;
+    display: flex;
+    padding: 10px 10px;
+    width: max-content;
+    box-sizing: border-box;
+    gap: 10px;
+    margin: 10px auto;
+    border-radius: 10px 10px;
+    border: 2px solid aqua;
+    align-items: center;
+
+}
+
+footer {
+
+    font-size: 20px;
+    color: aqua;
+    margin-top: auto;
+    padding-bottom: 20px;
+
+}
