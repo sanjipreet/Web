@@ -22,3 +22,37 @@ footer {
     padding-bottom: 20px;
 
 }
+
+#HOME {
+
+    text-decoration: none;
+    color: lightblue;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#HOME:hover {
+
+    color: aliceblue;
+    text-shadow: 0 0 8px aqua;
+
+}
+
+
+
+#BAR {
+
+    justify-content: center;
+    display: flex;
+    padding: 10px 10px;
+    width: max-content;
+    box-sizing: border-box;
+    gap: 10px;
+    margin: 10px auto;
+    border-radius: 10px 10px;
+    border: 2px solid aqua;
+    align-items: center;
+
+}
+
